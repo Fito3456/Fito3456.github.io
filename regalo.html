@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./regalo.css" >
+    <title>Regalo de San Valentin🌹👦🏾</title>
+</head>
+<body>
+    <section id="container-personaje">
+        <div id="titulo" > 
+        <h1 id="title">Porfa elija el su personaje con su nombre</h1>
+    </div>
+        <div id="tarjeta-personaje">
+            <div class="box " >
+                <figure  id="cowboy-hat-cursor">
+                    <img src="/imagen tarjeta/969fe23bde3b60e9595372a11997084f.gif" alt="Dragon Ball">
+                    <figcaption>Hans</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="esfera-dragon">
+                    <img src="/imagen tarjeta/giphy.gif" alt="Dragon Ball">
+                    <figcaption>Marlon</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="one-piece">
+                    <img src="/imagen tarjeta/0a7c004d865ee1bc595a6e6820f917dc.gif" alt="Dragon Ball">
+                    <figcaption >Javier</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="vegeta">
+                    <img src="/imagen tarjeta/vegeta-saiyan.gif" alt="Dragon Ball">
+                    <figcaption>Jhon</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="katana">
+                    <img src="/imagen tarjeta/giphy (4).gif" alt="Dragon Ball">
+                    <figcaption>Alejo</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="boxeo">
+                    <img src="/imagen tarjeta/tumblr_2cbfd6e902d86e5bd987097ee175fb7a_cd025050_500.gif" alt="Dragon Ball">
+                    <figcaption>Samuel</figcaption>
+                </figure>
+            </div>
+            <div class="box"> 
+                <figure id="spiderman">
+                    <img  src="/imagen tarjeta/spiderman.gif" alt="Dragon Ball">
+                    <figcaption>Jose</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div id="container-frases" style="display: none;">
+        <div id="container" >
+            <h3 id="letter-frase"></h3>
+            <div id="frases">
+                <div id="container-auth" class="auth-container">
+                    <div class="form">
+                        <div id="usuario">
+                            Usuario:
+                            <input type="text" id="username-input" name="usuario">
+                        </div>
+                        <div id="contraseña">
+                            Contraseña:
+                            <input type="password" id="password-input" name="password">
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <div id="botones">
+            <button class="button-90" id="auth-button" role="button">Siguiente --></button>
+            <button class="button-90" id="anterior" role="button">Atras <-- </button>
+        </div>
+    </div>
+    </div>
+    
+    </section>
+    <section id="container-carta" style="display: none;">
+        <div id="container-carta2" >
+            <div id="estrellas" style="position: absolute"></div>
+            <div id="estrellas2" style="position: absolute"></div>
+            <div id="estrellas3" style="position: absolute"></div>
+            <div id="estrellas4" style="position: absolute"></div>
+            <div id="estrellas5" style="position: absolute"></div>
+            <div id="estrellas6" style="position: absolute"></div>
+            <div id="estrellas7" style="position: absolute"></div>
+            <div id="portada">
+                <div id="hoja" ></div>
+            </div>
+            <div id="carta">
+                <p id="letter-message"></p>
+            </div>
+            <button class="button-90" id="open-letter-btn">Abrir carta</button>
+        </div>
+        <div id="letter-modal" class="modal">
+            <div class="letter-content">
+                <span class="close" id="close-letter-btn">&times;</span>
+                <div class="letter-header">
+                    <div class="letter-info">
+                        <h2 id="letter-recipient"></h2>
+                    </div>
+                </div>
+                <div class="letter-body">
+                   <p></p>
+                </div>
+                <div class="letter-footer">
+                    <p>Feliz dia de San Valentin</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./regalo.js"></script>
+</body>
+</html>
